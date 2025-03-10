@@ -1,4 +1,4 @@
-// Group: Alpha1 (Example)
+// Group: Momtrimo
 // File: Jenkinsfile
 // Description: CI/CD pipeline with Docker build/push, Kubernetes deploy, and post actions
 
@@ -31,7 +31,7 @@ pipeline {
                 }
             }
         }
-        stage("Push img to docker hub") {
+        stage("Push image to docker hub") {
             steps {
                 script {
                     // Push the Docker image to DockerHub
